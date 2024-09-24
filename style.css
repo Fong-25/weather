@@ -1,0 +1,119 @@
+*{
+    margin:0;
+    box-sizing:border-box;
+    font-family:'Poppins', sans-serif;
+    padding:0;
+
+}
+body{
+    background:#222222;
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+}
+.wrapper{
+    width:90%;
+    max-width:470px;
+    background:linear-gradient(53deg, #01877e 0%, #f179b8 100%);
+    color:#fff;
+    border-radius:25px;
+    text-align:center;
+    position:absolute;
+    height:105px;
+    overflow:hidden;
+    transition: 0.8s ease;
+    top:240px;
+    justify-content:space-between;
+    align-items:center;
+    padding:0px 15px;
+}
+.search{
+    width:100%;
+    height:110px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom: 40px;
+    gap:10px
+}
+.search input{
+    border:0;
+    outline:0;
+    width:70%;
+    background:#ebfffc;
+    color:#555;
+    padding: 10px 25px;
+    height:50px;
+    border-radius:25px;
+    flex:1;
+    font-size:18px;
+    flex-shrink: 1;
+}
+.search button{
+    border:0;
+    outline:0;
+    background:#ebfffc;
+    border-radius:50%;
+    height:50px;
+    width:50px;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+.search button  img{
+    width:25px;
+    height:25px;
+}
+
+.search button:hover{
+    background:linear-gradient(53deg, #01877e 0%, #f179b8 100%);
+}
+
+.weather-icon{
+    width:320px;
+    aspect-ratio: 1;
+    translate:0 -60px;
+}
+.weather h1{
+    font-size:40px;
+    font-weight: 290;
+    translate:0px -70px;
+}
+.weather h2{
+    font-size:21px;
+    font-weight: 220;
+    margin-top:-10px;
+    translate:0 -60px;
+}
+.details{
+    display:flex;
+    justify-content:space-between;
+    padding: 0 15px;
+    translate:0 -30px;
+}
+
+.details img{
+    height:40px;
+    width:40px;
+}
+.col{
+    display:flex;
+    text-align:left;
+    margin-bottom:20px;
+    justify-content: space-evenly;
+}
+.col img{
+    width:40px;
+    aspect-ratio: 1;
+    margin-right:10px;
+}
+.humidity, .wind{
+    font-size:17px;
+}
+#location{
+    margin-top: 20px;
+    translate:0 -55px;
+    margin-bottom:10px;
+    font-size:25
+}
